@@ -10,7 +10,7 @@ import java.util.Date;
 @Builder
 @AllArgsConstructor
 public class Adress {
-    private Long address_id;
+    private Long addressId;
     private String address;
     private String address2;
     private String district;
