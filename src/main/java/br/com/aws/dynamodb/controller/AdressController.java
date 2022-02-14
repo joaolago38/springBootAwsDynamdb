@@ -1,8 +1,6 @@
 package br.com.aws.dynamodb.controller;
 
-import br.com.aws.dynamodb.model.Actor;
 import br.com.aws.dynamodb.model.Adress;
-import br.com.aws.dynamodb.usecase.ActorUseCase;
 import br.com.aws.dynamodb.usecase.AdressUseCase;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

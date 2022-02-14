@@ -13,7 +13,7 @@ import java.util.Date;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-@Table(name = "tutorials")
+@Table(name = "actor")
 public class ActorEntinty {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

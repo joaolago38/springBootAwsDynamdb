@@ -1,9 +1,7 @@
 package br.com.aws.dynamodb.usecase;
 
 import br.com.aws.dynamodb.exception.ErroNegocioMensagemException;
-import br.com.aws.dynamodb.model.Actor;
 import br.com.aws.dynamodb.model.Adress;
-import br.com.aws.dynamodb.port.BuscaDadosActorPort;
 import br.com.aws.dynamodb.port.BuscaDadosAdressPort;
 
 import java.util.ArrayList;

@@ -7,6 +7,6 @@ import org.springframework.data.repository.query.Param;
 
 public interface ActorRespository extends JpaRepository<ActorEntinty, Long  > {
 
-    @Query(value = "select c from ActorEntinty c where c.actorId = :actorId")
-    ActorEntinty buscarActorPorCodigoId(@Param("actorId") Long actorId);
+    @Query(value = "select c from ActorEntinty c where c.actorId = :actor_id")
+    ActorEntinty buscarActorPorCodigoId(@Param("actor_id") Long actorId);
 }
