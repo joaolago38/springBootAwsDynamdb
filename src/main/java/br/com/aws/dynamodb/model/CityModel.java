@@ -13,12 +13,11 @@ import java.util.Date;
 @Data
 @Builder
 @AllArgsConstructor
-public class City {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+public class CityModel {
+
     private Long city_id;
-    @Column(name = "country_id")
+
     private Long country_id;
-    @Column(name = "last_update")
+
     private Date last_update;
 }

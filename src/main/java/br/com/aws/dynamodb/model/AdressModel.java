@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 @Builder
 @AllArgsConstructor
-public class Adress {
+public class AdressModel {
     private Long addressId;
     private String address;
     private String address2;

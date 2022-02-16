@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 @Builder
 @AllArgsConstructor
-public class FilmeActor {
+public class FilmeActorModel {
     private Long actor_id;
     private Long film_id;
     private Date last_update;

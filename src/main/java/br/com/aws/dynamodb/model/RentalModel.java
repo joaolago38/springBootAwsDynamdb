@@ -9,12 +9,12 @@ import java.util.Date;
 @Data
 @Builder
 @AllArgsConstructor
-public class Payment {
-    private Long payment_id;
+public class RentalModel {
+    private Long rental_id;
+    private Date rental_date;
+    private Date return_date;
     private Long customer_id;
     private Long staff_id;
-    private Long rental_id;
-    private Long amount;
-    private Date payment_date;
-
+    private Long inventory_id;
+    private Date last_update;
 }

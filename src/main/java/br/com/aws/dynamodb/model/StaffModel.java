@@ -9,15 +9,16 @@ import java.util.Date;
 @Data
 @Builder
 @AllArgsConstructor
-public class Customer {
-    private Long customer_id;
-    private Long store_id;
+public class StaffModel {
+    private Long staff_id;
     private String first_name;
     private String last_name;
-    private String email;
     private Long address_id;
-    private Boolean activebool;
-    private Date create_date;
+    private String email;
+    private String store_id;
     private Boolean active;
-
+    private String username;
+    private String password;
+    private Date last_update;
+    private String picture;
 }

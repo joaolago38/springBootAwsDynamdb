@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 @Builder
 @AllArgsConstructor
-public class Film {
+public class FilmModel {
 
     private  Long film_id;
     private String title;

@@ -9,10 +9,7 @@ import java.util.Date;
 @Data
 @Builder
 @AllArgsConstructor
-public class Language {
-
-    private  Long language_id;
-    private String name;
+public class CategoryModel {
+    private Long category_id;
     private Date last_update;
-
 }

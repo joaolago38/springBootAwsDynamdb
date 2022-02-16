@@ -9,7 +9,7 @@ import java.util.Date;
 @Data
 @Builder
 @AllArgsConstructor
-public class Inventory {
+public class InventoryModel {
     private Long inventory_id;
     private Long film_id;
     private Long store_id;
