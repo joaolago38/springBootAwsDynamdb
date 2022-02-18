@@ -16,7 +16,7 @@ import java.util.Date;
 public class RentalEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long rental_id;
+    private Long rentalId;
     @Column(name = "rental_date")
     private Date rentalDate;
     @Column(name = "return_date")

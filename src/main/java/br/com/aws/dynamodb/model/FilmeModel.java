@@ -9,9 +9,9 @@ import java.util.Date;
 @Data
 @Builder
 @AllArgsConstructor
-public class FilmModel {
+public class FilmeModel {
 
-    private  Long film_id;
+    private  Long filmeId;
     private String title;
     private String description;
     private String release_year;

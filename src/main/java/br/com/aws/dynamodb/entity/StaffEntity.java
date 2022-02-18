@@ -16,7 +16,7 @@ import java.util.Date;
 public class StaffEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long staff_id;
+    private Long staffId;
     @Column(name = "first_name")
     private String firstName;
     @Column(name = "last_name")
